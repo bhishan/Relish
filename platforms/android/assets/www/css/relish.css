@@ -1,0 +1,86 @@
+.page-header{ background: #000000; padding:5px; color: #000000; position:relative; height:40px; line-height:40px; text-shadow:none; border-top:3px solid #fb0e09; border-bottom:3px solid #fb0e09; position:fixed; width:100%; top:0; z-index:999;}
+.relish-logo img{margin-left:8px;}
+.page-content{ background: rgba(251, 251, 251, 0) url(../img/page-bg.png) no-repeat right top; padding:60px 15px 70px 15px; color: #000000; overflow-y:auto;}
+.page-footer{background:#000000; padding:0; color:#000000; border-top:3px solid #fb0e09; border-bottom:1px solid #fb0e09; position:fixed;bottom:0; width:100%; z-index:999}
+
+
+h2{font-size:16px; font-weight:bold; text-transform:uppercase; color: #FFFFFF; padding:0 0 3px 0; border-bottom:2px solid #888888; margin:0 0 10px 0;}
+h1{font-size:24px; font-weight:bold; text-transform:uppercase; color: rgba(255, 255, 255, 0); padding:0 0 3px 0; border-bottom:2px solid #000000;}
+
+ul.dashboard{display:block; padding:0; margin:0;}
+ul.dashboard li{text-align:center; list-style:none; text-align:center; border:1px solid #fb0e09; background:rgba(255, 255, 255, 0.7);}
+ul.dashboard li:hover{background-color: rgba(249, 251, 164, 0.100)
+}
+
+ul.dashboard li.left-content{float:left; width:32.33%; border-left:none; border-buttom:none;border-radius:15px 15px 15px 15px;}
+ul.dashboard li.middle-content{ float:left; width:32.33%; border-left:none; border-radius:15px 15px 15px 15px;}
+ul.dashboard li.right-content{ float:left; width:32.33%; border-left:none; border-radius: 15px 15px 15px 15px;}
+
+ul.dashboard li.left-content a{ display:block; height:185px; margin:0 auto;}
+ul.dashboard li.middle-content a{display:block; height:185px; margin:0 auto;}
+ul.dashboard li.right-content a{display: block; height:185px; margin:0 auto;}
+
+
+.event-picture{display:block; height:185px; margin:0 auto;}
+
+
+.reorder-popup{padding: 20px;}
+.itemPopTbl { margin:0; padding:0;}
+.clear{clear:both; display:block;}
+
+
+.follow-organizer{left:10px;}
+.notify-me{left:10px;}
+
+
+.login-screen{background: #000000; text-shadow:none; padding-top:15%; text-align:center;}
+.login-screen .login-box{width:75%; margin:2% auto; background: #FB0E09; padding:20px; border:1px solid #fb0e09; border-color: rgba(251, 14, 9, 0.50); border-radius:15px;}
+.login-screen img.shadow{ position:relative; top:-5px;}
+
+.login-screen .ui-body-inherit{border-color: #fb0e09;}
+
+.the-guest-btn{ padding-top:10px; alignment: center;}
+.the-login-btn{ padding-top:10px;}
+.form-row{ margin-bottom:15px;}
+.form-row label{font-weight:bold; text-transform:uppercase; font-size:13px;}
+.the-login-btn a.btn-login{float:left; width:35%; background:#000000; color:#fff; padding:12px 10px; display:block; font-size:17px; text-transform:uppercase; border-radius:10px;text-shadow:0 1px 0 #fb9b0e; border:1px solid #fb0e09; border-color:rgba(0, 101, 109, 0.6);}
+.the-login-btn a.btn-login:hover{background:#008000; text-shadow:0 1px 0 #fb9b0e; border:1px solid #000000; border-color:rgba(0, 101, 109, 0.4);}
+
+.the-login-btn a.btn-signup{float:right; width:35%;background:#000000; color:#fff; padding:12px 10px; display:block; font-size:17px; text-transform:uppercase; border-radius:10px;text-shadow:0 1px 0 #fb9b0e; border:1px solid #fb0e09; border-color:rgba(0, 101, 109, 0.6);}
+.the-login-btn a.btn-signup:hover{background:#008000; text-shadow:0 1px 0 #fb9b0e; border:1px solid #000000; border-color:rgba(0, 101, 109, 0.4);}
+
+.the-guest-btn a.btn-guest{float:left; width:35%;background: #fb0e09; color:#fff; padding:12px 10px; display:block; font-size:17px; text-transform:uppercase; border-radius:10px;text-shadow:0 1px 0 #fb9b0e; border:1px solid #fb0e09; border-color:rgba(0, 101, 109, 0.6);}
+.the-login-btn a.btn-guest:hover{background:#008000; text-shadow:0 1px 0 #fb9b0e; border:1px solid #fb0e09; border-color:rgba(0, 101, 109, 0.4);}
+
+.the-form label{font-weight:bold; font-size:12px; color:#ffffff;}
+.the-form-btn{ text-align:right; padding-top:15px;}
+a.btn-submit{ padding:8px 25px; background:#03cedf; border:1px solid #05bac9; border-radius:5px; color:#fff; text-shadow:0 1px 0 #05bac9; font-size:18px; font-weight:bold; text-transform:uppercase; margin-left:10px;}
+a.btn-submit:hover{background:#05bac9; color:#fff; text-shadow:0 1px 0 #049eab;}
+
+.the-form-btn a.green{background:#89c201; border:1px solid #75a601;text-shadow:0 1px 0 #75a601;}
+.the-form-btn a.gray{background:#d8d8d8; border:1px solid #bdbdbd;text-shadow:0 1px 0 #f2f2f2; color:#444;}
+.the-form-btn a.red{background:#f4635a; border:1px solid #e73b30;text-shadow:0 1px 0 #e73b30;}
+.the-form-btn a.purple{background:#c535d4; border:1px solid #af0ac0;text-shadow:0 1px 0 #af0ac0;}
+.the-form-btn a.orange{background:#fcaa00; border:1px solid #d79100;text-shadow:0 1px 0 #d79100;}
+.the-form-btn a.blue{background:#2bc1fb; border:1px solid #1ea5d8;text-shadow:0 1px 0 #1ea5d8;}
+
+.the-form-btn a.green:hover{background:#75a601;}
+.the-form-btn a.gray:hover{background:#c0c0c0;}
+.the-form-btn a.red:hover{background:#e73b30;}
+.the-form-btn a.purple:hover{background:#af0ac0;}
+.the-form-btn a.orange:hover{background:#ec9f00;}
+.the-form-btn a.blue:hover{background:#1ea5d8;}
+
+h2 span.required-info{font-weight:normal; float:right; font-size:12px; text-transform:none; color: #fb0e09;}
+.ui-field-contain label span.required{color:#fb0e09;}
+.ui-field-contain label {text-align: left;}
+
+.gap-in-between{height:5px;}
+
+a.icon-menu{ display:inline-block;background-position:right -965px; height:43px; width:35px; position:absolute; right:15px; top:2px;background-color: #ff0000;}
+
+.navigation-menu{
+    background-color: #fb0e09;
+}
+
+.nav-li-a{background: #000000; color:#ffffff;}
