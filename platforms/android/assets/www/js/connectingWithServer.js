@@ -51,3 +51,10 @@ function populateEventsFromServer(){
     $('#eventsFromServer').html(result);
 }
 
+function populateUserInfoInPanel(){
+    $("#username-in-panel").html('');
+    var userName = window.localStorage.getItem("userName") || "Guest";
+    var userRole = window.localStorage.getItem("userRole") || "User Role: Guest";
+    var result = '<strong>' + userName + '</strong>' + '<strong>'+userRole+'</strong>';
+    $("#username-in-panel").html(result);
+}
