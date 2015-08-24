@@ -20,10 +20,31 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         populateUserInfoInPanel();
-        populateEventsFromServer();
+        populateEventsFromServer("popularity");
 
 
         //getEventsFromServer();
+
+        $('#sort-by-popularity').on('click', function(e){
+            populateEventsFromServer("popularity")
+            window.location.hash = "#homepage";
+        });
+
+        $('#sort-by-recent').on('click', function(e){
+            populateEventsFromServer("recent")
+            window.location.hash = "#homepage";
+        });
+
+        $('#sort-by-free').on('click', function(e){
+            populateEventsFromServer("free")
+            window.location.hash = "#homepage";
+        });
+
+        $('#sort-by-paid').on('click', function(e){
+            populateEventsFromServer("paid")
+            window.location.hash = "#homepage";
+        });
+
 
         app.receivedEvent('deviceready');
     },

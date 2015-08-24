@@ -3,7 +3,7 @@
  */
 
 
-function populateEventsFromServer(){
+function populateEventsFromServer(sortBY){
     $("#eventsFromServer").html('');
     var result = '';
     for(var i=0;i <10; i++){
